@@ -66,7 +66,7 @@
 		 //NOTE: for assert() to work, you need to change the Java extension settings to run with assertions enabled
 		 assert(player != null); //this will throw an error if player is null -- eg. if you haven't called setup() first
 		 player.play(); //play each note in the sequence -- the player will determine whether is time for a note onset
-		 
+		 //checks time idk what 
 	 }
  
 	 //opens the midi file, extracts a voice, then initializes a melody player with that midi voice (e.g. the melody)
@@ -103,7 +103,7 @@
  
 	 //start the melody at the beginning again when a key is pressed
 	 public void keyPressed() {
-		 player.reset();
+		 player.reset(); //tjis is the start restarts it
  
 	 }
  

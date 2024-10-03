@@ -15,7 +15,7 @@
  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.release>23</maven.compiler.release>
+    <maven.compiler.release>21</maven.compiler.release>
     <!-- <maven.compiler.source>2.3</maven.compiler.source>
     <maven.compiler.target>2.3</maven.compiler.target> -->
   </properties> 
@@ -130,6 +130,20 @@
 </repositories>
 
 <dependencies>
+
+  <dependency>
+    <groupId>com.explodingart</groupId>
+    <artifactId>jmusic</artifactId>
+    <version>1.6.4.1</version>
+  </dependency>
+
+
+  <dependency>
+    <groupId>com.github.chen0040</groupId>
+    <artifactId>java-tensorflow-music</artifactId>
+    <version>1.0.1</version>
+  </dependency>
+
 
     <dependency>
       <groupId>junit</groupId>
